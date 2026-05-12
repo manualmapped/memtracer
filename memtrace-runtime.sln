@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memtrace-runtime", "memtrace-runtime\memtrace-runtime.vcxproj", "{B10E82AF-0DDF-AF98-C6E1-9C4FA4BCF224}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "payload-dll", "payload-dll\payload-dll.vcxproj", "{D855D247-BC34-F4AD-9813-F220F08C9D54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B10E82AF-0DDF-AF98-C6E1-9C4FA4BCF224}.Debug|x64.ActiveCfg = Debug|x64
+		{B10E82AF-0DDF-AF98-C6E1-9C4FA4BCF224}.Debug|x64.Build.0 = Debug|x64
+		{B10E82AF-0DDF-AF98-C6E1-9C4FA4BCF224}.Release|x64.ActiveCfg = Release|x64
+		{B10E82AF-0DDF-AF98-C6E1-9C4FA4BCF224}.Release|x64.Build.0 = Release|x64
+		{D855D247-BC34-F4AD-9813-F220F08C9D54}.Debug|x64.ActiveCfg = Debug|x64
+		{D855D247-BC34-F4AD-9813-F220F08C9D54}.Debug|x64.Build.0 = Debug|x64
+		{D855D247-BC34-F4AD-9813-F220F08C9D54}.Release|x64.ActiveCfg = Release|x64
+		{D855D247-BC34-F4AD-9813-F220F08C9D54}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
